@@ -1,1 +1,0 @@
-# Projetos-Escola-de-Cientista
