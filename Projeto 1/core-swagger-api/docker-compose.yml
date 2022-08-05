@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  api-sentimentos:
+    container_name: api-should-i-go
+    image: api-should-i-go
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ./service:/code/service
+    networks:
+      - backend
+    ports:
+      - 9000:9000 #porta no container e na máquina host
+
+networks:
+  backend:
+    driver: bridge
