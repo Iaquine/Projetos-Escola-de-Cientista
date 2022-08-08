@@ -107,5 +107,6 @@ Instruções adicionais podem ser encontrados na [Apresentação Swagger](https:
 ## Autores
 
 * **Patrick Luiz** - *Trabalho inicial*
+* **Iaquine** - *Finalização*
 
 ## Exemplo de template copiado de: https://gist.github.com/PurpleBooth/109311bb0361f32d87a2
