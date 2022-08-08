@@ -13,6 +13,7 @@ ENV VERSAO=1.0.1 \
 
 COPY service /code/service
 COPY setup.py /code/
+COPY arvore_model2.pkl /code/
 WORKDIR /code
 
 RUN pip3 install pandas
@@ -25,3 +26,4 @@ COPY service/config ./config
 RUN chmod -R +x /code
 
 CMD ["python3", "-m", "service"]
+
