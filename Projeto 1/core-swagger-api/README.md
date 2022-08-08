@@ -1,13 +1,8 @@
-# api-sentimentos
+# api-Should-I-go
 
 Projeto que sobe um Container e, neste, uma API RESTful com o Swagger
 
 ## Uso do Docker no Mac em ambientes corporativos
-
-Link tutorial de instalação Lima (para Macs **Intel**): 
-
-- Password: GdpsUp7u
-- Recording Link: https://ibm.webex.com/ibm/ldr.php?RCID=e9e13b4331f0bef362573d8c8d94a81e
 
 ### 1. Instalar o homebrew
 
