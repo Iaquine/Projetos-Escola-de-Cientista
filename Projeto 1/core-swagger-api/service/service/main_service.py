@@ -21,7 +21,6 @@ class shows():
         self.model = pck.load(open(filename, 'rb'))
         logger.debug(mensagens.FIM_LOAD_MODEL)
 
-        return model
 
     def executar_rest(self, band_scores):
         response = {}
@@ -52,9 +51,9 @@ class shows():
         """
         logger.debug('Iniciando o predict...')
 
-        model = self.load_model()
+        self.load_model()
         #model.compile()
-        predicted = model.predict([band_scores])
+        predicted = self.model.predict([band_scores])
 
         if predicted == 0:
             print(predicted)
